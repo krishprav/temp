@@ -1,0 +1,12 @@
+.feed{
+    max-height: 100vh;
+    max-width: 100vw;
+    background: var(--neutral-ivory);
+    overflow: hidden;
+}
+
+@media (max-width: 512px) {
+    .feed{
+    overflow: scroll;
+    }
+}

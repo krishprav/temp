@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@700&display=swap");
+
+:root {
+  --primary-coral: #e91e63;
+  --accent-charcoal: #424242;
+  --ivory: #fffff0;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* max-width: 960px; */
+  margin: 0 auto 2rem auto;
+  font-family: "Lora", serif;
+  color: var(--accent-charcoal);
+}
+
+.card {
+  background-color: var(--ivory);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--accent-charcoal);
+  flex: 1 1 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.button {
+  background-color: var(--primary-coral);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+  align-self: flex-start;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c2185b; /* slightly darker coral */
+}
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%; /* full width on small screens */
+  }
+}

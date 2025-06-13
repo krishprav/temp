@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+:root {
+  --primary-coral: #e91e63;
+}
+
+.banner {
+  display: block;
+  background-color: var(--primary-coral);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(233, 30, 99, 0.4);
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.banner:hover {
+  opacity: 0.85;
+}
