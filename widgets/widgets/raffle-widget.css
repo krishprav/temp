@@ -1,0 +1,43 @@
+.raffle-container {
+  max-width: 350px;
+  padding: 1rem;
+  border: 1px solid #e91e63;
+  border-radius: 10px;
+  font-family: sans-serif;
+  background: #fff;
+}
+
+.raffle-title {
+  color: #e91e63;
+  margin-top: 0;
+}
+
+.raffle-input {
+  width: 100%;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.raffle-button {
+  width: 100%;
+  padding: 0.6rem;
+  background: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.raffle-button:hover {
+  background: #c2185b;
+}
+
+.raffle-confirmation {
+  margin-top: 1rem;
+  color: #2e7d32;
+  font-weight: bold;
+}
